@@ -7,6 +7,7 @@ namespace TesteAppXamarin
     [TestClass]
     public class TesteLifeCycle
     {
+
         [TestMethod]
         public void Teste_CalculoICMS()
         {
