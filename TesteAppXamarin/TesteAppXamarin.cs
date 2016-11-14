@@ -10,8 +10,8 @@ namespace TesteAppXamarin
         [TestMethod]
         public void Teste_CalculoICMS()
         {
-            decimal resultado = Program.calcularICMS(1000);
-            Assert.AreEqual(180, resultado);
+            decimal resultado = Program.calcularICMS(500);
+            Assert.AreEqual(90, resultado);
         }
     }
 }
