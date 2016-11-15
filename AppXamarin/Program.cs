@@ -21,7 +21,7 @@ namespace AppXamarin
 
         public static decimal calculoICMS_NF01(decimal ValorMercadoria)
         {
-            return (ValorMercadoria * (18m / 100m));
+            return (ValorMercadoria * (18.5m / 100m));
         }
 
         public static decimal calculoICMS_NF02(decimal ValorMercadoria)
