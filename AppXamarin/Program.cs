@@ -7,16 +7,26 @@ using System.Threading.Tasks;
 namespace AppXamarin
 {
     public class Program
-    {
+    {       
         static void Main(string[] args)
         {
-            calcularICMS(1000);
+            Console.Write(calculoICMS_NF01(10000));
+            Console.ReadKey();
         }
 
+        public static int soma(int n1, int n2)
+        {
+            return (n1 + n2);
+        }
 
-        public static decimal calcularICMS(decimal ValorMercadoria)
+        public static decimal calculoICMS_NF01(decimal ValorMercadoria)
         {
             return (ValorMercadoria * (18m / 100m));
         }
-    }
+
+        public static decimal calculoICMS_NF02(decimal ValorMercadoria)
+        {
+            return (ValorMercadoria * (12m / 100m));
+        }
+    }    
 }
